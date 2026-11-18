@@ -1,0 +1,21 @@
+{
+  "name": "tg-lead-ai",
+  "version": "0.1.0",
+  "description": "AI-Strategist: квалификация лидов и маркетинговый план в Telegram",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun run --hot index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.2"
+  }
+}
